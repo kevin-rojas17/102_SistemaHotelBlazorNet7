@@ -1,0 +1,2 @@
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel.Server\obj\Debug\SistemaHotel.Server.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel.Server\obj\Debug\SistemaHotel.Server.csproj.CoreCompileInputs.cache

@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Client\\SistemaHotel.Client.csproj": {}
+    "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Client\\SistemaHotel.Client.csproj": {}
   },
   "projects": {
-    "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Client\\SistemaHotel.Client.csproj": {
+    "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Client\\SistemaHotel.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Client\\SistemaHotel.Client.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Client\\SistemaHotel.Client.csproj",
         "projectName": "SistemaHotel.Client",
-        "projectPath": "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Client\\SistemaHotel.Client.csproj",
-        "packagesPath": "C:\\Users\\JCHAMBI\\.nuget\\packages\\",
-        "outputPath": "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Client\\obj\\",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Client\\SistemaHotel.Client.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JCHAMBI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj": {
-                "projectPath": "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj"
+              "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj"
               }
             }
           }
@@ -72,6 +74,24 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
+            "Microsoft.NET.ILLink.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "autoReferenced": true
+            },
             "MudBlazor": {
               "target": "Package",
               "version": "[6.2.2, )"
@@ -91,7 +111,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.5, 7.0.5]"
+              "version": "[7.0.15, 7.0.15]"
             }
           ],
           "frameworkReferences": {
@@ -99,7 +119,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -108,20 +128,21 @@
         }
       }
     },
-    "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj": {
+    "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj",
         "projectName": "SistemaHotel.Shared",
-        "projectPath": "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj",
-        "packagesPath": "C:\\Users\\JCHAMBI\\.nuget\\packages\\",
-        "outputPath": "E:\\WorkSpaceAD\\YOUTUBE\\102_SISTEMA HOTEL BLAZOR NET 7\\Subir02\\SistemaHotel\\SistemaHotel\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Shared\\SistemaHotel.Shared.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\102_SistemaHotelBlazorNet7\\SistemaHotel\\SistemaHotel\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JCHAMBI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,6 +150,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -162,7 +184,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
