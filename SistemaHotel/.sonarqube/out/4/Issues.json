@@ -1,0 +1,876 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-7.23572.1 (7b75981c)",
+        "semanticVersion": "4.8.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS8765",
+          "level": "warning",
+          "message": "La nulabilidad del tipo de parámetro \"o\" no coincide con el miembro invalidado (posiblemente debido a los atributos de nulabilidad).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 30,
+                  "endLine": 17,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8765",
+          "level": "warning",
+          "message": "La nulabilidad del tipo de parámetro \"o\" no coincide con el miembro invalidado (posiblemente debido a los atributos de nulabilidad).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 30,
+                  "endLine": 16,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8765",
+          "level": "warning",
+          "message": "La nulabilidad del tipo de parámetro \"o\" no coincide con el miembro invalidado (posiblemente debido a los atributos de nulabilidad).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RolUsuarioDTO.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 30,
+                  "endLine": 15,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 20,
+                  "endLine": 25,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 20,
+                  "endLine": 24,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"NombreCliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"TipoDocumento\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"NroDocumento\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"NroHabitacion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"FechaEntrada\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"FechaSalida\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"TotalPagado\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/SesionDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/SesionDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Correo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/SesionDTO.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/SesionDTO.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Rol\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/SesionDTO.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/SesionDTO.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RolUsuarioDTO.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 20,
+                  "endLine": 23,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'DashBoardDTO' to match pascal case naming rules, consider using 'DashBoardDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/DashBoardDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'EstadoHabitacionDTO' to match pascal case naming rules, consider using 'EstadoHabitacionDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/EstadoHabitacionDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ClienteDTO' to match pascal case naming rules, consider using 'ClienteDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ClienteDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'CategoriaDTO' to match pascal case naming rules, consider using 'CategoriaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'HabitacionDTO' to match pascal case naming rules, consider using 'HabitacionDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/HabitacionDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PisoDTO' to match pascal case naming rules, consider using 'PisoDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ReporteDTO' to match pascal case naming rules, consider using 'ReporteDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'RecepcionDTO' to match pascal case naming rules, consider using 'RecepcionDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RecepcionDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'RolUsuarioDTO' to match pascal case naming rules, consider using 'RolUsuarioDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RolUsuarioDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'SesionDTO' to match pascal case naming rules, consider using 'SesionDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/SesionDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ResponseDTO' to match pascal case naming rules, consider using 'ResponseDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ResponseDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'UsuarioDTO' to match pascal case naming rules, consider using 'UsuarioDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/UsuarioDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'o' to 'obj' to match the base class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 44,
+                  "endLine": 17,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'o' to 'obj' to match the base class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 44,
+                  "endLine": 16,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'o' to 'obj' to match the base class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RolUsuarioDTO.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 44,
+                  "endLine": 15,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8765": {
+          "id": "CS8765",
+          "shortDescription": "La nulabilidad del tipo de parámetro no coincide con el miembro invalidado (posiblemente debido a los atributos de nulabilidad).",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8765)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "Parameters are part of the method signature and its identity.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

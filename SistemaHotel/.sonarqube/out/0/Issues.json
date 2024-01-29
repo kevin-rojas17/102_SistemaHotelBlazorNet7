@@ -18,11 +18,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
                 "region": {
-                  "startLine": 16,
+                  "startLine": 17,
                   "startColumn": 30,
-                  "endLine": 16,
+                  "endLine": 17,
                   "endColumn": 36
                 }
               }
@@ -39,11 +39,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
                 "region": {
-                  "startLine": 17,
+                  "startLine": 16,
                   "startColumn": 30,
-                  "endLine": 17,
+                  "endLine": 16,
                   "endColumn": 36
                 }
               }
@@ -421,6 +421,27 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 20,
+                  "endLine": 24,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
                 "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RolUsuarioDTO.cs",
                 "region": {
                   "startLine": 23,
@@ -457,18 +478,18 @@
           }
         },
         {
-          "ruleId": "CS8603",
+          "ruleId": "S101",
           "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "message": "Rename class 'ResponseDTO' to match pascal case naming rules, consider using 'ResponseDto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ResponseDTO.cs",
                 "region": {
-                  "startLine": 24,
-                  "startColumn": 20,
-                  "endLine": 24,
-                  "endColumn": 31
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 29
                 }
               }
             }
@@ -480,11 +501,11 @@
         {
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'DashBoardDTO' to match pascal case naming rules, consider using 'DashBoardDto'.",
+          "message": "Rename class 'RecepcionDTO' to match pascal case naming rules, consider using 'RecepcionDto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/DashBoardDTO.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RecepcionDTO.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 18,
@@ -522,16 +543,37 @@
         {
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'ReporteDTO' to match pascal case naming rules, consider using 'ReporteDto'.",
+          "message": "Rename class 'HabitacionDTO' to match pascal case naming rules, consider using 'HabitacionDto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/HabitacionDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'DashBoardDTO' to match pascal case naming rules, consider using 'DashBoardDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/DashBoardDTO.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 18,
                   "endLine": 9,
-                  "endColumn": 28
+                  "endColumn": 30
                 }
               }
             }
@@ -564,79 +606,16 @@
         {
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'HabitacionDTO' to match pascal case naming rules, consider using 'HabitacionDto'.",
+          "message": "Rename class 'ReporteDTO' to match pascal case naming rules, consider using 'ReporteDto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/HabitacionDTO.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 18,
-                  "endLine": 10,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'RecepcionDTO' to match pascal case naming rules, consider using 'RecepcionDto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RecepcionDTO.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ReporteDTO.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 18,
                   "endLine": 9,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'CategoriaDTO' to match pascal case naming rules, consider using 'CategoriaDto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 18,
-                  "endLine": 10,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'PisoDTO' to match pascal case naming rules, consider using 'PisoDto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 18,
-                  "endLine": 9,
-                  "endColumn": 25
+                  "endColumn": 28
                 }
               }
             }
@@ -669,27 +648,6 @@
         {
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'RolUsuarioDTO' to match pascal case naming rules, consider using 'RolUsuarioDto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RolUsuarioDTO.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 18,
-                  "endLine": 9,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
           "message": "Rename class 'UsuarioDTO' to match pascal case naming rules, consider using 'UsuarioDto'.",
           "locations": [
             {
@@ -711,16 +669,58 @@
         {
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'ResponseDTO' to match pascal case naming rules, consider using 'ResponseDto'.",
+          "message": "Rename class 'RolUsuarioDTO' to match pascal case naming rules, consider using 'RolUsuarioDto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/ResponseDTO.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/RolUsuarioDTO.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 18,
                   "endLine": 9,
-                  "endColumn": 29
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PisoDTO' to match pascal case naming rules, consider using 'PisoDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'CategoriaDTO' to match pascal case naming rules, consider using 'CategoriaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 30
                 }
               }
             }
@@ -757,11 +757,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
                 "region": {
-                  "startLine": 17,
+                  "startLine": 16,
                   "startColumn": 44,
-                  "endLine": 17,
+                  "endLine": 16,
                   "endColumn": 45
                 }
               }
@@ -778,11 +778,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/PisoDTO.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Shared/CategoriaDTO.cs",
                 "region": {
-                  "startLine": 16,
+                  "startLine": 17,
                   "startColumn": 44,
-                  "endLine": 16,
+                  "endLine": 17,
                   "endColumn": 45
                 }
               }

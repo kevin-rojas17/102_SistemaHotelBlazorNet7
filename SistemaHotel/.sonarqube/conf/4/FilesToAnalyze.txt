@@ -1,0 +1,13 @@
+﻿C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\CategoriaDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\ClienteDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\DashBoardDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\EstadoHabitacionDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\HabitacionDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\PisoDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\RecepcionDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\ReporteDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\ResponseDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\RolUsuarioDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\SesionDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\UsuarioDTO.cs
+C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Shared\WeatherForecast.cs

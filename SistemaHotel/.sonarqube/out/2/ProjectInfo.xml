@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>SistemaHotel.Client</ProjectName>
+  <ProjectName>SistemaHotel.Server</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>733577d2-4083-4a03-9c6e-17c0ee88407f</ProjectGuid>
-  <FullPath>C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Client\SistemaHotel.Client.csproj</FullPath>
+  <ProjectGuid>bb8e05f2-c0f5-4177-ab0d-59367d4e608d</ProjectGuid>
+  <FullPath>C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\SistemaHotel\Server\SistemaHotel.Server.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\kevin\Desktop\102_SistemaHotelBlazorNet7\SistemaHotel\.sonarqube\conf\2\FilesToAnalyze.txt" />

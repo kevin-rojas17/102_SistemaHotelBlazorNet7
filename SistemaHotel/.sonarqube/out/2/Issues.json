@@ -12,18 +12,597 @@
       },
       "results": [
         {
-          "ruleId": "CS8618",
+          "ruleId": "CS8625",
           "level": "warning",
-          "message": "El elemento propiedad \"correo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Utilidades/UsuarioLogin.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/ICategoriaRepositorio.cs",
                 "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 29
+                  "startLine": 9,
+                  "startColumn": 76,
+                  "endLine": 9,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/ICategoriaRepositorio.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 90,
+                  "endLine": 13,
+                  "endColumn": 94
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IClienteRepositorio.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 72,
+                  "endLine": 9,
+                  "endColumn": 76
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IClienteRepositorio.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 86,
+                  "endLine": 13,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IHabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 78,
+                  "endLine": 9,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IHabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 92,
+                  "endLine": 13,
+                  "endColumn": 96
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IRecepcionRepositorio.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 90,
+                  "endLine": 9,
+                  "endColumn": 94
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IPisoRepositorio.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 66,
+                  "endLine": 9,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IRecepcionRepositorio.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 76,
+                  "endLine": 10,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IPisoRepositorio.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 80,
+                  "endLine": 13,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/CategoriaRepositorio.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 103,
+                  "endLine": 18,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/CategoriaRepositorio.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 89,
+                  "endLine": 78,
+                  "endColumn": 93
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IUsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 72,
+                  "endLine": 9,
+                  "endColumn": 76
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Contratos/IUsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 86,
+                  "endLine": 13,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/ClienteRepositorio.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 99,
+                  "endLine": 17,
+                  "endColumn": 103
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/ClienteRepositorio.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 85,
+                  "endLine": 77,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/HabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 105,
+                  "endLine": 18,
+                  "endColumn": 109
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/RecepcionRepositorio.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 103,
+                  "endLine": 21,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/HabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 91,
+                  "endLine": 78,
+                  "endColumn": 95
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/RecepcionRepositorio.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 89,
+                  "endLine": 107,
+                  "endColumn": 93
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/PisoRepositorio.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 93,
+                  "endLine": 18,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/PisoRepositorio.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 79,
+                  "endLine": 78,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/UsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 99,
+                  "endLine": 18,
+                  "endColumn": 103
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/UsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 85,
+                  "endLine": 78,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Error_cshtml.g.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 232,
+                  "endLine": 54,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Error_cshtml.g.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 232,
+                  "endLine": 69,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Error_cshtml.g.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 234,
+                  "endLine": 97,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Categoria\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 32
                 }
               }
             }
@@ -31,12 +610,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Utilidades/UsuarioLogin.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 29
+                  "startLine": 18,
+                  "startColumn": 37,
+                  "endLine": 18,
+                  "endColumn": 46
                 }
               }
             }
@@ -48,16 +627,19 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"clave\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "message": "El elemento propiedad \"Clientes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Utilidades/UsuarioLogin.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 28
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 32
                 }
               }
             }
@@ -65,74 +647,11 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Utilidades/UsuarioLogin.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Usuario_razor.g.cs",
-                "region": {
-                  "startLine": 579,
-                  "startColumn": 13,
-                  "endLine": 579,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Usuario_razor.g.cs",
-                "region": {
-                  "startLine": 581,
-                  "startColumn": 13,
-                  "endLine": 581,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Usuario_razor.g.cs",
-                "region": {
-                  "startLine": 583,
-                  "startColumn": 13,
-                  "endLine": 583,
+                  "startLine": 20,
+                  "startColumn": 35,
+                  "endLine": 20,
                   "endColumn": 43
                 }
               }
@@ -143,311 +662,33 @@
           }
         },
         {
-          "ruleId": "CS8602",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Usuario_razor.g.cs",
-                "region": {
-                  "startLine": 583,
-                  "startColumn": 13,
-                  "endLine": 583,
-                  "endColumn": 55
-                }
-              }
-            }
+          "message": "El elemento propiedad \"EstadoHabitacions\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
           ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
           "locations": [
             {
               "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Usuario_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 553,
-                  "startColumn": 40,
-                  "endLine": 553,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Categoria_razor.g.cs",
-                "region": {
-                  "startLine": 538,
-                  "startColumn": 13,
-                  "endLine": 538,
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
                   "endColumn": 32
                 }
               }
             }
           ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
+          "relatedLocations": [
             {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Categoria_razor.g.cs",
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 511,
-                  "startColumn": 42,
-                  "endLine": 511,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Cliente_razor.g.cs",
-                "region": {
-                  "startLine": 601,
-                  "startColumn": 13,
-                  "endLine": 601,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Cliente_razor.g.cs",
-                "region": {
-                  "startLine": 604,
-                  "startColumn": 13,
-                  "endLine": 604,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Cliente_razor.g.cs",
-                "region": {
-                  "startLine": 606,
-                  "startColumn": 13,
-                  "endLine": 606,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Cliente_razor.g.cs",
-                "region": {
-                  "startLine": 608,
-                  "startColumn": 13,
-                  "endLine": 608,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Cliente_razor.g.cs",
-                "region": {
-                  "startLine": 574,
-                  "startColumn": 40,
-                  "endLine": 574,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
-                "region": {
-                  "startLine": 446,
-                  "startColumn": 27,
-                  "endLine": 446,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
-                "region": {
-                  "startLine": 460,
-                  "startColumn": 27,
-                  "endLine": 460,
-                  "endColumn": 58
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
-                "region": {
-                  "startLine": 622,
-                  "startColumn": 13,
-                  "endLine": 622,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
-                "region": {
-                  "startLine": 624,
-                  "startColumn": 13,
-                  "endLine": 624,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
-                "region": {
-                  "startLine": 626,
-                  "startColumn": 13,
-                  "endLine": 626,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
-                "region": {
-                  "startLine": 626,
-                  "startColumn": 13,
-                  "endLine": 626,
+                  "startLine": 22,
+                  "startColumn": 44,
+                  "endLine": 22,
                   "endColumn": 61
                 }
               }
@@ -458,17 +699,70 @@
           }
         },
         {
-          "ruleId": "CS8602",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "message": "El elemento propiedad \"Habitacions\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 629,
-                  "startColumn": 13,
-                  "endLine": 629,
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 38,
+                  "endLine": 24,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Pisos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 32,
+                  "endLine": 26,
                   "endColumn": 37
                 }
               }
@@ -479,164 +773,33 @@
           }
         },
         {
-          "ruleId": "CS8602",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "message": "El elemento propiedad \"Recepcions\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 629,
-                  "startColumn": 13,
-                  "endLine": 629,
-                  "endColumn": 49
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 32
                 }
               }
             }
           ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
+          "relatedLocations": [
             {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 632,
-                  "startColumn": 13,
-                  "endLine": 632,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
-                "region": {
-                  "startLine": 632,
-                  "startColumn": 13,
-                  "endLine": 632,
-                  "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8601",
-          "level": "warning",
-          "message": "Posible asignación de referencia nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Login_razor.g.cs",
-                "region": {
-                  "startLine": 478,
-                  "startColumn": 26,
-                  "endLine": 478,
-                  "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8601",
-          "level": "warning",
-          "message": "Posible asignación de referencia nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Login_razor.g.cs",
-                "region": {
-                  "startLine": 479,
-                  "startColumn": 26,
-                  "endLine": 479,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Login_razor.g.cs",
-                "region": {
-                  "startLine": 480,
-                  "startColumn": 23,
-                  "endLine": 480,
-                  "endColumn": 59
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8601",
-          "level": "warning",
-          "message": "Posible asignación de referencia nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Login_razor.g.cs",
-                "region": {
-                  "startLine": 480,
-                  "startColumn": 23,
-                  "endLine": 480,
-                  "endColumn": 71
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Habitacion_razor.g.cs",
-                "region": {
-                  "startLine": 595,
-                  "startColumn": 43,
-                  "endLine": 595,
+                  "startLine": 28,
+                  "startColumn": 37,
+                  "endLine": 28,
                   "endColumn": 47
                 }
               }
@@ -647,59 +810,33 @@
           }
         },
         {
-          "ruleId": "CS8625",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "message": "El elemento propiedad \"RolUsuarios\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Salida_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 640,
-                  "startColumn": 29,
-                  "endLine": 640,
-                  "endColumn": 33
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 32
                 }
               }
             }
           ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
-          "locations": [
+          "relatedLocations": [
             {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Salida_razor.g.cs",
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 656,
-                  "startColumn": 24,
-                  "endLine": 656,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Salida_razor.g.cs",
-                "region": {
-                  "startLine": 623,
-                  "startColumn": 45,
-                  "endLine": 623,
+                  "startLine": 30,
+                  "startColumn": 38,
+                  "endLine": 30,
                   "endColumn": 49
                 }
               }
@@ -712,16 +849,19 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento campo \"pisoSeleccionado\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "message": "El elemento propiedad \"Usuarios\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Salida_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 621,
-                  "startColumn": 20,
-                  "endLine": 621,
-                  "endColumn": 36
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 32
                 }
               }
             }
@@ -729,54 +869,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Salida_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 621,
-                  "startColumn": 20,
-                  "endLine": 621,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Piso_razor.g.cs",
-                "region": {
-                  "startLine": 538,
-                  "startColumn": 13,
-                  "endLine": 538,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdCategoria_razor.g.cs",
-                "region": {
-                  "startLine": 279,
+                  "startLine": 32,
                   "startColumn": 35,
-                  "endLine": 279,
-                  "endColumn": 53
+                  "endLine": 32,
+                  "endColumn": 43
                 }
               }
             }
@@ -788,49 +886,18 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento campo \"rolSeleccionado\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "message": "El elemento propiedad \"Categoria\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdUsuario_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 440,
-                  "startColumn": 26,
-                  "endLine": 440,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdUsuario_razor.g.cs",
-                "region": {
-                  "startLine": 440,
-                  "startColumn": 26,
-                  "endLine": 440,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"MudDialog\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdUsuario_razor.g.cs",
-                "region": {
-                  "startLine": 448,
-                  "startColumn": 23,
-                  "endLine": 448,
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
                   "endColumn": 32
                 }
               }
@@ -839,415 +906,11 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdUsuario_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 448,
-                  "startColumn": 23,
-                  "endLine": 448,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Piso_razor.g.cs",
-                "region": {
-                  "startLine": 511,
+                  "startLine": 18,
                   "startColumn": 37,
-                  "endLine": 511,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"MudDialog\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdCategoria_razor.g.cs",
-                "region": {
-                  "startLine": 277,
-                  "startColumn": 23,
-                  "endLine": 277,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdCategoria_razor.g.cs",
-                "region": {
-                  "startLine": 277,
-                  "startColumn": 23,
-                  "endLine": 277,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 286,
-                  "startColumn": 60,
-                  "endLine": 286,
-                  "endColumn": 96
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 361,
-                  "startColumn": 60,
-                  "endLine": 361,
-                  "endColumn": 96
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 436,
-                  "startColumn": 60,
-                  "endLine": 436,
-                  "endColumn": 96
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 436,
-                  "startColumn": 60,
-                  "endLine": 436,
-                  "endColumn": 118
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 511,
-                  "startColumn": 60,
-                  "endLine": 511,
-                  "endColumn": 96
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 511,
-                  "startColumn": 60,
-                  "endLine": 511,
-                  "endColumn": 113
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 586,
-                  "startColumn": 60,
-                  "endLine": 586,
-                  "endColumn": 93
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 661,
-                  "startColumn": 60,
-                  "endLine": 661,
-                  "endColumn": 93
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 937,
-                  "startColumn": 60,
-                  "endLine": 937,
-                  "endColumn": 96
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Detalle_razor.g.cs",
-                "region": {
-                  "startLine": 361,
-                  "startColumn": 60,
-                  "endLine": 361,
-                  "endColumn": 96
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Detalle_razor.g.cs",
-                "region": {
-                  "startLine": 511,
-                  "startColumn": 60,
-                  "endLine": 511,
-                  "endColumn": 91
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Detalle_razor.g.cs",
-                "region": {
-                  "startLine": 1425,
-                  "startColumn": 24,
-                  "endLine": 1425,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_DetalleSalida_razor.g.cs",
-                "region": {
-                  "startLine": 1470,
-                  "startColumn": 24,
-                  "endLine": 1470,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdPiso_razor.g.cs",
-                "region": {
-                  "startLine": 279,
-                  "startColumn": 35,
-                  "endLine": 279,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"MudDialog\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdPiso_razor.g.cs",
-                "region": {
-                  "startLine": 277,
-                  "startColumn": 23,
-                  "endLine": 277,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdPiso_razor.g.cs",
-                "region": {
-                  "startLine": 277,
-                  "startColumn": 23,
-                  "endLine": 277,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8629",
-          "level": "warning",
-          "message": "Un tipo que acepta valores NULL puede ser nulo.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Detalle_razor.g.cs",
-                "region": {
-                  "startLine": 1447,
-                  "startColumn": 24,
-                  "endLine": 1447,
+                  "endLine": 18,
                   "endColumn": 46
                 }
               }
@@ -1258,143 +921,20 @@
           }
         },
         {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdClientes_razor.g.cs",
-                "region": {
-                  "startLine": 436,
-                  "startColumn": 13,
-                  "endLine": 436,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdClientes_razor.g.cs",
-                "region": {
-                  "startLine": 439,
-                  "startColumn": 13,
-                  "endLine": 439,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdClientes_razor.g.cs",
-                "region": {
-                  "startLine": 441,
-                  "startColumn": 13,
-                  "endLine": 441,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdClientes_razor.g.cs",
-                "region": {
-                  "startLine": 443,
-                  "startColumn": 13,
-                  "endLine": 443,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdClientes_razor.g.cs",
-                "region": {
-                  "startLine": 452,
-                  "startColumn": 24,
-                  "endLine": 452,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdClientes_razor.g.cs",
-                "region": {
-                  "startLine": 406,
-                  "startColumn": 40,
-                  "endLine": 406,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"MudDialog\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "message": "El elemento propiedad \"Clientes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdClientes_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 410,
-                  "startColumn": 23,
-                  "endLine": 410,
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
                   "endColumn": 32
                 }
               }
@@ -1403,54 +943,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdClientes_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 410,
-                  "startColumn": 23,
-                  "endLine": 410,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdCliente_razor.g.cs",
-                "region": {
-                  "startLine": 405,
+                  "startLine": 20,
                   "startColumn": 35,
-                  "endLine": 405,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Recepcion_razor.g.cs",
-                "region": {
-                  "startLine": 641,
-                  "startColumn": 29,
-                  "endLine": 641,
-                  "endColumn": 33
+                  "endLine": 20,
+                  "endColumn": 43
                 }
               }
             }
@@ -1462,15 +960,18 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"MudDialog\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "message": "El elemento propiedad \"EstadoHabitacions\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdCliente_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 403,
-                  "startColumn": 23,
-                  "endLine": 403,
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
                   "endColumn": 32
                 }
               }
@@ -1479,53 +980,48 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdCliente_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 403,
-                  "startColumn": 23,
-                  "endLine": 403,
+                  "startLine": 22,
+                  "startColumn": 44,
+                  "endLine": 22,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Habitacions\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
                   "endColumn": 32
                 }
               }
             }
           ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "locations": [
+          "relatedLocations": [
             {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Recepcion_razor.g.cs",
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 676,
-                  "startColumn": 17,
-                  "endLine": 676,
-                  "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Recepcion_razor.g.cs",
-                "region": {
-                  "startLine": 624,
-                  "startColumn": 45,
-                  "endLine": 624,
+                  "startLine": 24,
+                  "startColumn": 38,
+                  "endLine": 24,
                   "endColumn": 49
                 }
               }
@@ -1538,159 +1034,18 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento campo \"pisoSeleccionado\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "message": "El elemento propiedad \"Pisos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Recepcion_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 622,
-                  "startColumn": 20,
-                  "endLine": 622,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Recepcion_razor.g.cs",
-                "region": {
-                  "startLine": 622,
-                  "startColumn": 20,
-                  "endLine": 622,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8629",
-          "level": "warning",
-          "message": "Un tipo que acepta valores NULL puede ser nulo.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Reporte_razor.g.cs",
-                "region": {
-                  "startLine": 672,
-                  "startColumn": 24,
-                  "endLine": 672,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8629",
-          "level": "warning",
-          "message": "Un tipo que acepta valores NULL puede ser nulo.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Reporte_razor.g.cs",
-                "region": {
-                  "startLine": 673,
-                  "startColumn": 21,
-                  "endLine": 673,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento campo \"pisoSeleccionado\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdHabitacion_razor.g.cs",
-                "region": {
-                  "startLine": 464,
-                  "startColumn": 20,
-                  "endLine": 464,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdHabitacion_razor.g.cs",
-                "region": {
-                  "startLine": 464,
-                  "startColumn": 20,
-                  "endLine": 464,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento campo \"categoriaSeleccionado\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdHabitacion_razor.g.cs",
-                "region": {
-                  "startLine": 468,
-                  "startColumn": 25,
-                  "endLine": 468,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdHabitacion_razor.g.cs",
-                "region": {
-                  "startLine": 468,
-                  "startColumn": 25,
-                  "endLine": 468,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"MudDialog\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdHabitacion_razor.g.cs",
-                "region": {
-                  "startLine": 472,
-                  "startColumn": 23,
-                  "endLine": 472,
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
                   "endColumn": 32
                 }
               }
@@ -1699,222 +1054,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Modal_MdHabitacion_razor.g.cs",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 472,
-                  "startColumn": 23,
-                  "endLine": 472,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make '_sinInformacion' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Utilidades/AutenticacionExtension.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 33,
-                  "endLine": 11,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make '_recepcionDTO' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Detalle.razor",
-                "region": {
-                  "startLine": 154,
-                  "startColumn": 26,
-                  "endLine": 154,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Recepcion.razor",
-                "region": {
-                  "startLine": 82,
-                  "startColumn": 20,
-                  "endLine": 82,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'usuarioLogin' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Login.razor",
-                "region": {
-                  "startLine": 44,
-                  "startColumn": 18,
-                  "endLine": 44,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Salida.razor",
-                "region": {
-                  "startLine": 78,
-                  "startColumn": 20,
-                  "endLine": 78,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdHabitacion.razor",
-                "region": {
-                  "startLine": 63,
-                  "startColumn": 20,
-                  "endLine": 63,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdHabitacion.razor",
-                "region": {
-                  "startLine": 67,
-                  "startColumn": 25,
-                  "endLine": 67,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdUsuario.razor",
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 26,
-                  "endLine": 53,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1905",
-          "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<UsuarioDTO>'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Usuario.razor",
-                "region": {
-                  "startLine": 80,
-                  "startColumn": 30,
-                  "endLine": 80,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1905",
-          "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<CategoriaDTO>'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Categoria.razor",
-                "region": {
-                  "startLine": 76,
+                  "startLine": 26,
                   "startColumn": 32,
-                  "endLine": 76,
-                  "endColumn": 50
+                  "endLine": 26,
+                  "endColumn": 37
                 }
               }
             }
@@ -1924,18 +1069,34 @@
           }
         },
         {
-          "ruleId": "S1905",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<ClienteDTO>'.",
+          "message": "El elemento propiedad \"Recepcions\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Cliente.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 82,
-                  "startColumn": 29,
-                  "endLine": 82,
-                  "endColumn": 45
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 37,
+                  "endLine": 28,
+                  "endColumn": 47
                 }
               }
             }
@@ -1945,18 +1106,34 @@
           }
         },
         {
-          "ruleId": "S1905",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Remove this unnecessary cast to 'DashBoardDTO'.",
+          "message": "El elemento propiedad \"RolUsuarios\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Dashboard.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 60,
-                  "startColumn": 29,
-                  "endLine": 60,
-                  "endColumn": 41
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 38,
+                  "endLine": 30,
+                  "endColumn": 49
                 }
               }
             }
@@ -1966,81 +1143,34 @@
           }
         },
         {
-          "ruleId": "S1905",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<HabitacionDTO>'.",
+          "message": "El elemento propiedad \"Usuarios\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Habitacion.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 84,
-                  "startColumn": 29,
-                  "endLine": 84,
-                  "endColumn": 48
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 32
                 }
               }
             }
           ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1905",
-          "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<PisoDTO>'.",
-          "locations": [
+          "relatedLocations": [
             {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Salida.razor",
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 87,
-                  "startColumn": 27,
-                  "endLine": 87,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S6608",
-          "level": "warning",
-          "message": "Indexing at 0 should be used instead of the \"Enumerable\" extension method \"First\"",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Salida.razor",
-                "region": {
-                  "startLine": 88,
-                  "startColumn": 43,
-                  "endLine": 88,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1905",
-          "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<HabitacionDTO>'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Salida.razor",
-                "region": {
-                  "startLine": 100,
+                  "startLine": 32,
                   "startColumn": 35,
-                  "endLine": 100,
-                  "endColumn": 54
+                  "endLine": 32,
+                  "endColumn": 43
                 }
               }
             }
@@ -2050,18 +1180,18 @@
           }
         },
         {
-          "ruleId": "S3358",
+          "ruleId": "CS1998",
           "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Salida.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/CategoriaRepositorio.cs",
                 "region": {
-                  "startLine": 41,
-                  "startColumn": 98,
-                  "endLine": 41,
-                  "endColumn": 167
+                  "startLine": 18,
+                  "startColumn": 50,
+                  "endLine": 18,
+                  "endColumn": 59
                 }
               }
             }
@@ -2071,18 +1201,18 @@
           }
         },
         {
-          "ruleId": "S3358",
+          "ruleId": "CS1998",
           "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Salida.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/UsuarioRepositorio.cs",
                 "region": {
-                  "startLine": 42,
-                  "startColumn": 89,
-                  "endLine": 42,
-                  "endColumn": 144
+                  "startLine": 18,
+                  "startColumn": 48,
+                  "endLine": 18,
+                  "endColumn": 57
                 }
               }
             }
@@ -2092,18 +1222,18 @@
           }
         },
         {
-          "ruleId": "S1905",
+          "ruleId": "CS8602",
           "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<PisoDTO>'.",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Piso.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/RecepcionController.cs",
                 "region": {
-                  "startLine": 76,
-                  "startColumn": 29,
-                  "endLine": 76,
-                  "endColumn": 42
+                  "startLine": 37,
+                  "startColumn": 78,
+                  "endLine": 37,
+                  "endColumn": 79
                 }
               }
             }
@@ -2113,17 +1243,80 @@
           }
         },
         {
-          "ruleId": "S6602",
+          "ruleId": "CS8602",
           "level": "warning",
-          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdUsuario.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/RecepcionController.cs",
                 "region": {
-                  "startLine": 75,
-                  "startColumn": 46,
-                  "endLine": 75,
+                  "startLine": 38,
+                  "startColumn": 78,
+                  "endLine": 38,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/ClienteRepositorio.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 48,
+                  "endLine": 17,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/DashBoardRepositorio.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 32,
+                  "endLine": 15,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/HabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 51,
+                  "endLine": 18,
                   "endColumn": 60
                 }
               }
@@ -2134,164 +1327,17 @@
           }
         },
         {
-          "ruleId": "S6608",
+          "ruleId": "CS1998",
           "level": "warning",
-          "message": "Indexing at 0 should be used instead of the \"Enumerable\" extension method \"First\"",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdUsuario.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/PisoRepositorio.cs",
                 "region": {
-                  "startLine": 77,
-                  "startColumn": 46,
-                  "endLine": 77,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1186",
-          "level": "warning",
-          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdCategoria.razor",
-                "region": {
-                  "startLine": 34,
-                  "startColumn": 35,
-                  "endLine": 34,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1186",
-          "level": "warning",
-          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdPiso.razor",
-                "region": {
-                  "startLine": 34,
-                  "startColumn": 35,
-                  "endLine": 34,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1905",
-          "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<ClienteDTO>'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdClientes.razor",
-                "region": {
-                  "startLine": 59,
-                  "startColumn": 29,
-                  "endLine": 59,
-                  "endColumn": 45
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1905",
-          "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<PisoDTO>'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Recepcion.razor",
-                "region": {
-                  "startLine": 91,
-                  "startColumn": 27,
-                  "endLine": 91,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S6608",
-          "level": "warning",
-          "message": "Indexing at 0 should be used instead of the \"Enumerable\" extension method \"First\"",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Recepcion.razor",
-                "region": {
-                  "startLine": 92,
-                  "startColumn": 43,
-                  "endLine": 92,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1186",
-          "level": "warning",
-          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdCliente.razor",
-                "region": {
-                  "startLine": 46,
-                  "startColumn": 35,
-                  "endLine": 46,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1905",
-          "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<HabitacionDTO>'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Recepcion.razor",
-                "region": {
-                  "startLine": 104,
-                  "startColumn": 35,
-                  "endLine": 104,
+                  "startLine": 18,
+                  "startColumn": 45,
+                  "endLine": 18,
                   "endColumn": 54
                 }
               }
@@ -2302,122 +1348,185 @@
           }
         },
         {
-          "ruleId": "S6602",
+          "ruleId": "CS8603",
           "level": "warning",
-          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdHabitacion.razor",
-                "region": {
-                  "startLine": 87,
-                  "startColumn": 43,
-                  "endLine": 87,
-                  "endColumn": 57
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S6602",
-          "level": "warning",
-          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdHabitacion.razor",
-                "region": {
-                  "startLine": 88,
-                  "startColumn": 52,
-                  "endLine": 88,
-                  "endColumn": 66
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3358",
-          "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Recepcion.razor",
-                "region": {
-                  "startLine": 41,
-                  "startColumn": 98,
-                  "endLine": 41,
-                  "endColumn": 167
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3358",
-          "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Recepcion.razor",
-                "region": {
-                  "startLine": 42,
-                  "startColumn": 89,
-                  "endLine": 42,
-                  "endColumn": 144
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1905",
-          "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<PisoDTO>'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdHabitacion.razor",
-                "region": {
-                  "startLine": 77,
-                  "startColumn": 27,
-                  "endLine": 77,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1905",
-          "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<CategoriaDTO>'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdHabitacion.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/CategoriaRepositorio.cs",
                 "region": {
                   "startLine": 82,
-                  "startColumn": 31,
+                  "startColumn": 24,
                   "endLine": 82,
+                  "endColumn": 86
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/ClienteRepositorio.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 24,
+                  "endLine": 81,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/DashBoardRepositorio.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 32,
+                  "endLine": 29,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Posible argumento de referencia nulo para el parámetro \"FechaInicio\" en \"Task<List<Recepcion>> IRecepcionRepositorio.Reporte(string FechaInicio, string FechaFin)\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/RecepcionController.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 115,
+                  "endLine": 110,
+                  "endColumn": 126
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Posible argumento de referencia nulo para el parámetro \"FechaFin\" en \"Task<List<Recepcion>> IRecepcionRepositorio.Reporte(string FechaInicio, string FechaFin)\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/RecepcionController.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 128,
+                  "endLine": 110,
+                  "endColumn": 136
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/DashBoardRepositorio.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 32,
+                  "endLine": 43,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/PisoRepositorio.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 24,
+                  "endLine": 82,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/HabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 24,
+                  "endLine": 82,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/DashBoardRepositorio.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 32,
+                  "endLine": 57,
                   "endColumn": 49
                 }
               }
@@ -2428,18 +1537,18 @@
           }
         },
         {
-          "ruleId": "S6608",
+          "ruleId": "CS8603",
           "level": "warning",
-          "message": "Indexing at 0 should be used instead of the \"Enumerable\" extension method \"First\"",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdHabitacion.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/UsuarioRepositorio.cs",
                 "region": {
-                  "startLine": 92,
-                  "startColumn": 43,
-                  "endLine": 92,
-                  "endColumn": 48
+                  "startLine": 82,
+                  "startColumn": 24,
+                  "endLine": 82,
+                  "endColumn": 85
                 }
               }
             }
@@ -2449,17 +1558,482 @@
           }
         },
         {
-          "ruleId": "S6608",
+          "ruleId": "CS1998",
           "level": "warning",
-          "message": "Indexing at 0 should be used instead of the \"Enumerable\" extension method \"First\"",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Modal/MdHabitacion.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/RecepcionRepositorio.cs",
                 "region": {
-                  "startLine": 93,
-                  "startColumn": 52,
-                  "endLine": 93,
+                  "startLine": 21,
+                  "startColumn": 50,
+                  "endLine": 21,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/RecepcionRepositorio.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 24,
+                  "endLine": 34,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Utilidades/AutoMapperProfile.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 47,
+                  "endLine": 74,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Utilidades/AutoMapperProfile.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 47,
+                  "endLine": 78,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Utilidades/AutoMapperProfile.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 47,
+                  "endLine": 82,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Utilidades/AutoMapperProfile.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 47,
+                  "endLine": 86,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8629",
+          "level": "warning",
+          "message": "Un tipo que acepta valores NULL puede ser nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Utilidades/AutoMapperProfile.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 47,
+                  "endLine": 90,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8629",
+          "level": "warning",
+          "message": "Un tipo que acepta valores NULL puede ser nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Utilidades/AutoMapperProfile.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 47,
+                  "endLine": 94,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/RecepcionRepositorio.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 24,
+                  "endLine": 111,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8629",
+          "level": "warning",
+          "message": "Un tipo que acepta valores NULL puede ser nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/RecepcionRepositorio.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 31,
+                  "endLine": 127,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "El campo 'Pages_Error.__tagHelperStringValueBuffer' nunca se usa",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Error_cshtml.g.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 24,
+                  "endLine": 31,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Pages/Error.cshtml.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 46,
+                  "endLine": 15,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4502",
+          "level": "warning",
+          "message": "Make sure disabling CSRF protection is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Pages/Error.cshtml.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 6,
+                  "endLine": 8,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_mapper' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/DashBoardController.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 34,
+                  "endLine": 13,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3251",
+          "level": "warning",
+          "message": "Supply an implementation for this partial method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 5,
+                  "endLine": 213,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 61,
+                  "endLine": 15,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'ListaCategoria'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/CategoriaController.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 36,
+                  "endLine": 33,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'ListaModelo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/ClienteController.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 34,
+                  "endLine": 32,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'Modelo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/HabitacionController.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 31,
+                  "endLine": 33,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'ListaModelo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/PisoController.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 31,
+                  "endLine": 32,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'ListaRolUsuario'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/RolUsuarioController.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 37,
+                  "endLine": 32,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'ListaUsuarios'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/UsuarioController.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 34,
+                  "endLine": 32,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'Modelo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/RecepcionController.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 30,
+                  "endLine": 32,
                   "endColumn": 57
                 }
               }
@@ -2470,18 +2044,732 @@
           }
         },
         {
-          "ruleId": "S1905",
+          "ruleId": "S1186",
           "level": "warning",
-          "message": "Remove this unnecessary cast to 'List<ReporteDTO>'.",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Client/Pages/Reporte.razor",
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
                 "region": {
-                  "startLine": 96,
-                  "startColumn": 22,
-                  "endLine": 96,
-                  "endColumn": 38
+                  "startLine": 34,
+                  "startColumn": 29,
+                  "endLine": 34,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/CategoriaRepositorio.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 13,
+                  "endLine": 35,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/UsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 13,
+                  "endLine": 35,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/UsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 13,
+                  "endLine": 49,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable '_usuario'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/UsuarioController.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 28,
+                  "endLine": 56,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/CategoriaRepositorio.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 13,
+                  "endLine": 49,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/UsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 13,
+                  "endLine": 63,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/CategoriaRepositorio.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 13,
+                  "endLine": 63,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'ListaModelo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Controllers/HabitacionController.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 37,
+                  "endLine": 62,
+                  "endColumn": 76
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/ClienteRepositorio.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 13,
+                  "endLine": 34,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/ClienteRepositorio.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 13,
+                  "endLine": 48,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/DashBoardRepositorio.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 13,
+                  "endLine": 26,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/CategoriaRepositorio.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 13,
+                  "endLine": 75,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/ClienteRepositorio.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 13,
+                  "endLine": 62,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/ClienteRepositorio.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 13,
+                  "endLine": 74,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/CategoriaRepositorio.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 13,
+                  "endLine": 87,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/PisoRepositorio.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 13,
+                  "endLine": 35,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/HabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 13,
+                  "endLine": 35,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/ClienteRepositorio.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 13,
+                  "endLine": 86,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/DashBoardRepositorio.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 13,
+                  "endLine": 40,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/PisoRepositorio.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 13,
+                  "endLine": 49,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/HabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 13,
+                  "endLine": 49,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/HabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 13,
+                  "endLine": 63,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/PisoRepositorio.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 13,
+                  "endLine": 63,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/PisoRepositorio.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 13,
+                  "endLine": 75,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/HabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 13,
+                  "endLine": 75,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/RolUsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 13,
+                  "endLine": 25,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/DashBoardRepositorio.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 13,
+                  "endLine": 54,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/PisoRepositorio.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 13,
+                  "endLine": 87,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/HabitacionRepositorio.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 13,
+                  "endLine": 87,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/UsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 13,
+                  "endLine": 75,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/DashBoardRepositorio.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 13,
+                  "endLine": 68,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/UsuarioRepositorio.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 13,
+                  "endLine": 87,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Repositorio/Implementacion/RecepcionRepositorio.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 13,
+                  "endLine": 116,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3251",
+          "level": "warning",
+          "message": "Supply an implementation for the partial method, otherwise this call will be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel/Server/Models/DbhotelBlazorContext.cs",
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 9,
+                  "endLine": 210,
+                  "endColumn": 46
                 }
               }
             }
@@ -2492,6 +2780,20 @@
         }
       ],
       "rules": {
+        "CS0169": {
+          "id": "CS0169",
+          "shortDescription": "Nunca se usa el campo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0169)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
         "CS1998": {
           "id": "CS1998",
           "shortDescription": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica",
@@ -2506,11 +2808,11 @@
             ]
           }
         },
-        "CS8601": {
-          "id": "CS8601",
-          "shortDescription": "Posible asignación de referencia nula",
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Desreferencia de una referencia posiblemente NULL.",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8601)",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
@@ -2520,11 +2822,25 @@
             ]
           }
         },
-        "CS8602": {
-          "id": "CS8602",
-          "shortDescription": "Desreferencia de una referencia posiblemente NULL.",
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Posible argumento de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
@@ -2576,22 +2892,6 @@
             ]
           }
         },
-        "S1104": {
-          "id": "S1104",
-          "shortDescription": "Fields should not have public accessibility",
-          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and have three main disadvantages:",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
         "S1186": {
           "id": "S1186",
           "shortDescription": "Methods should not be empty",
@@ -2609,29 +2909,12 @@
             ]
           }
         },
-        "S1905": {
-          "id": "S1905",
-          "shortDescription": "Redundant casts should not be used",
-          "fullDescription": "Casting expressions are utilized to convert one data type to another, such as transforming an integer into a string. This is especially crucial in strongly typed languages like C, C++, C#, Java, Python, and others.",
+        "S1854": {
+          "id": "S1854",
+          "shortDescription": "Unused assignments should be removed",
+          "fullDescription": "Dead stores refer to assignments made to local variables that are subsequently never used or immediately overwritten. Such assignments are unnecessary and don’t contribute to the functionality or clarity of the code. They may even negatively impact performance. Removing them enhances code cleanliness and readability. Even if the unnecessary operations do not do any harm in terms of the program’s correctness, they are - at best - a waste of computing resources.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1905",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S2933": {
-          "id": "S2933",
-          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
-          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1854",
           "properties": {
             "category": "Major Code Smell",
             "isEnabledByDefault": true,
@@ -2643,14 +2926,46 @@
             ]
           }
         },
-        "S3358": {
-          "id": "S3358",
-          "shortDescription": "Ternary operators should not be nested",
-          "fullDescription": "Nested ternaries are hard to read and can make the order of operations complex to understand.",
+        "S2737": {
+          "id": "S2737",
+          "shortDescription": "\"catch\" clauses should do more than rethrow",
+          "fullDescription": "A catch clause that only rethrows the caught exception has the same effect as omitting the catch altogether and letting it bubble up automatically.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2737",
           "properties": {
-            "category": "Major Code Smell",
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3251": {
+          "id": "S3251",
+          "shortDescription": "Implementations should be provided for \"partial\" methods",
+          "fullDescription": "partial methods allow an increased degree of flexibility in programming a system. Hooks can be added to generated code by invoking methods that define their signature, but might not have an implementation yet. But if the implementation is still missing when the code makes it to production, the compiler silently removes the call. In the best case scenario, such calls simply represent cruft, but in they worst case they are critical, missing functionality, the loss of which will lead to unexpected results at runtime.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3251",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields which are written but never read are a case of \"dead store\". Changing the value of such a field is useless and most probably indicates an error in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
@@ -2660,36 +2975,18 @@
             ]
           }
         },
-        "S6602": {
-          "id": "S6602",
-          "shortDescription": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension",
-          "fullDescription": "Both the List.Find method and IEnumerable.FirstOrDefault method can be used to find the first element that satisfies a given condition in a collection. However, List.Find can be faster than IEnumerable.FirstOrDefault for List objects. For small collections, the performance difference may be minor, but for large collections, it can make a noticeable difference. The same applies for ImmutableList and arrays too.",
+        "S4502": {
+          "id": "S4502",
+          "shortDescription": "Disabling CSRF protections is security-sensitive",
+          "fullDescription": "A cross-site request forgery (CSRF) attack occurs when a trusted user of a web application can be forced, by an attacker, to perform sensitive actions that he didn’t intend, such as updating his profile or sending a message, more generally anything that can change the state of the application.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6602",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4502",
           "properties": {
-            "category": "Minor Code Smell",
+            "category": "Critical Security Hotspot",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S6608": {
-          "id": "S6608",
-          "shortDescription": "Prefer indexing instead of \"Enumerable\" methods on types implementing \"IList\"",
-          "fullDescription": "Indexes in C# provide direct access to an element at a specific position within an array or collection. When compared to Enumerable methods, indexing can be more efficient for certain scenarios, such as iterating over a large collection, due to avoiding the overhead of checking the underlying collection type before accessing it.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6608",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
               "SonarWay"
             ]
           }

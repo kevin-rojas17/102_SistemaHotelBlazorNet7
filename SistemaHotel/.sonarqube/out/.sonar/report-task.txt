@@ -1,6 +1,6 @@
-projectKey=sistemHotel2.1
+projectKey=vercion1.1
 serverUrl=http://localhost:9000
 serverVersion=10.3.0.82913
-dashboardUrl=http://localhost:9000/dashboard?id=sistemHotel2.1
-ceTaskId=AY1E4ThnbMzewN9CG7mx
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AY1E4ThnbMzewN9CG7mx
+dashboardUrl=http://localhost:9000/dashboard?id=vercion1.1
+ceTaskId=AY1TPI07DHHgY_NqPbNV
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY1TPI07DHHgY_NqPbNV

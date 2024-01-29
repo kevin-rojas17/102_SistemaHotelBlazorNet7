@@ -1,0 +1,214 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-7.23572.1 (7b75981c)",
+        "semanticVersion": "4.8.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento campo \"_mapper\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel.Server.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 25,
+                  "endLine": 15,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel.Server.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 25,
+                  "endLine": 15,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento campo \"_recepcionRepositorio\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel.Server.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 39,
+                  "endLine": 16,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel.Server.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 39,
+                  "endLine": 16,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento campo \"_controller\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel.Server.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 37,
+                  "endLine": 17,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel.Server.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 37,
+                  "endLine": 17,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3415",
+          "level": "warning",
+          "message": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel.Server.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 29,
+                  "endLine": 34,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3415",
+          "level": "warning",
+          "message": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel.Server.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 29,
+                  "endLine": 41,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3415",
+          "level": "warning",
+          "message": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kevin/Desktop/102_SistemaHotelBlazorNet7/SistemaHotel/SistemaHotel.Server.Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 29,
+                  "endLine": 48,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S3415": {
+          "id": "S3415",
+          "shortDescription": "Assertion arguments should be passed in the correct order",
+          "fullDescription": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
